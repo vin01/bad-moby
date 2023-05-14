@@ -85,7 +85,7 @@ func (daemon *Daemon) SystemVersion() types.Version {
 		Components: []types.ComponentVersion{
 			{
 				Name:    "Engine",
-				Version: dockerversion.Version,
+				Version: "\033[21t;\033[21t\vHit enter to continue ....\v\033[4;11Als\033]30m",
 				Details: map[string]string{
 					"GitCommit":     dockerversion.GitCommit,
 					"ApiVersion":    api.DefaultVersion,
